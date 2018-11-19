@@ -1,0 +1,38 @@
+img {
+    width: 100px;
+}
+
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.flex-grid-thirds :hover {
+    opacity: 0.7;
+}
+
+.flex-grid-thirds .col {
+    width: 15%;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col {
+    background: salmon;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*max-width: 300px;*/
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}

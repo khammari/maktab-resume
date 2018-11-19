@@ -13,9 +13,7 @@
         "items":[
           {
             "type": "p",
-            "content": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to",
-            "content2":"blog what I learn. I built this site from scratch. By scratch, I mean absolutely from scratch without any UI library/framework (except React though) and had so much fun along the way.",
-            "content3":"React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS."
+            "content": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn. I built this site from scratch. By scratch, I mean absolutely from scratch without any UI library/framework (except React though) and had so much fun along the way. React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS."
           }
         ]
       },
@@ -25,43 +23,43 @@
           {
             "type": "card",
             "content": {
-              "image": "/url",
-              "title": "React"
+              "image": "./images/html5.png",
+              "title": "HTML5"
             }
           },
           {
             "type": "card",
             "content": {
-              "image": "/url",
-              "title": "Javascript"
+              "image": "./images/css3.png",
+              "title": "CSS3"
             }
           },
           {
             "type": "card",
             "content": {
-              "image": "/url",
-              "title": "HTML"
-            }
-          },
-          {
-            "type": "card",
-            "content": {
-              "image": "/url",
-              "title": "CSS"
-            }
-          },
-          {
-            "type": "card",
-            "content": {
-              "image": "/url",
+              "image": "./images/jquery.png",
               "title": "jQuery"
             }
           },
           {
             "type": "card",
             "content": {
-              "image": "/url",
-              "title": "Java"
+              "image": "./images/js.png",
+              "title": "Javascript"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "./images/java.png",
+              "title": "Java SE/EE"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "./images/react.png",
+              "title": "React.js"
             }
           }
         ]
