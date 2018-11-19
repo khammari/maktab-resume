@@ -1,0 +1,71 @@
+{
+    "title": "Hello, I'm Reza!",
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast | Ninja",
+    "links": {
+      "github": "https://github.com/khammari",
+      "linkdin": "https://linkedin.com/in/khammari",
+      "stackoverflow": "https://stackoverflow.com/cv/khammari",
+      "twitter": "https://twitter.com/khammari_r"
+    },
+    "sections": [
+      {
+        "title": "About",
+        "items":[
+          {
+            "type": "p",
+            "content": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to",
+            "content2":"blog what I learn. I built this site from scratch. By scratch, I mean absolutely from scratch without any UI library/framework (except React though) and had so much fun along the way.",
+            "content3":"React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS."
+          }
+        ]
+      },
+      {
+        "title": "skills",
+        "items": [
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "React"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "Javascript"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "HTML"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "CSS"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "jQuery"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "/url",
+              "title": "Java"
+            }
+          }
+        ]
+      }
+    ]
+
+  }
