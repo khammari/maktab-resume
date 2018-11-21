@@ -58,7 +58,7 @@
           {
             "type": "card",
             "content": {
-              "image": "images/react.png",
+              "image": "./images/react.png",
               "title": "React.js"
             }
           }
