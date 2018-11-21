@@ -1,0 +1,12 @@
+.second {
+    background-color: darksalmon;
+  }
+  
+  p {
+      padding-right: 40px;
+      padding-left: 40px;
+  }
+
+  h3 {
+      font-size: 3rem;
+  }

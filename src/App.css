@@ -12,31 +12,6 @@ body {
   font-family: 'Montserrat' , sans-serif;
 }
 
-
-.first {
-  background-color: burlywood;
-}
-
-.second {
-  background-color: darksalmon;
-}
-
-.third {
-  background-color: bisque;
-
-}
-
-.icon-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon {
-  margin: 10px;
-}
-
 h3 {
   font-size: 3rem;
 }

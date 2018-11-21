@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import {Nav, Navbar, NavItem} from 'react-bootstrap';
-import './App.css';
-import data from "./data.json";
-import {SocialIcon} from "react-social-icons";
 import SnowStorm from "react-snowstorm";
-import FullPage from "./components/Fullpage"
-import Card from "./components/Card";
-
+import TitleSection from './sections/TitleSection'
+import AboutSection from './sections/AboutSection';
+import SkillsSection from './sections/SkillsSection';
+import './App.css';
 
 let colors = ["burlywood", "darksalmon", "bisque", "coral", "darkgoldenrod", "darkkhaki", "lightcoral"];
 
@@ -58,46 +56,9 @@ let colors = ["burlywood", "darksalmon", "bisque", "coral", "darkgoldenrod", "da
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <FullPage id={"first"} className="first" color={this.state.first}>
-                        <h1 className="title">{data.title}</h1>
-                        <div>
-                            <h2>{data.subtitle}</h2>
-                        </div>
-                        <div className="icon-wrapper">
-                            {Object.keys(data.links).map(key => {
-                                return (
-                                    <div className="icon">
-                                        <SocialIcon url={data.links[key]}/>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    </FullPage>
-                    <FullPage id={"second"} className={"second"} color={this.state.second}>
-                        <h3>{data.sections[0].title}</h3>
-                        <div className="paragraphs">
-                            {data.sections[0].items.map(p => {
-                                return (
-                                    <p>
-                                        {p.content}
-                                    </p>
-                                );
-                            })}
-                        </div>
-                    </FullPage>
-                    <FullPage id={"third"} className={"third"} color={this.state.third}>
-                        <h3>{data.sections[1].title}</h3>
-                        <div className="flex-grid-thirds">
-                            {
-                                data.sections[1].items.map(skills => {
-                                    return (
-                                        <Card title={skills.content.title} pic={skills.content.image}>
-                                        </Card>
-                                    )
-                                })
-                            }
-                        </div>
-                    </FullPage>
+                    <TitleSection id={"first"} className="first" color={this.state.first}/>
+                    <AboutSection id={"second"} className={"second"} color={this.state.second}/>
+                    <SkillsSection id={"third"} className={"third"} color={this.state.third}/>
                     <SnowStorm/>
                 </div>
             );
