@@ -21,7 +21,8 @@ class TitleSection extends Component {
           })}
         </div>
         <div>
-          <img src={data.icons.down} alt="down"/>
+          <img alt={data.icons.down} src={data.icons.down}/>
+          <img alt={data.sections[1].items[1].content.title} src={data.sections[1].items[1].content.image}/>
         </div>
       </FullPage>
     );

@@ -66,7 +66,7 @@
       }
     ],
     "icons" : {
-      "down":"images/down.png"
+      "down":"./images/ico.png"
     }
       
 
