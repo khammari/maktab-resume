@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/maktab-resume/precache-manifest.52597c31f535b1108192887156d472d4.js"
+  "/maktab-resume/precache-manifest.8d8879e0a6585e56ad3906561ac47b31.js"
 );
 
 workbox.clientsClaim();
