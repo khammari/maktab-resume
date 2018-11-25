@@ -1,6 +1,5 @@
-This is test comment
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Simple resume with React. See The Demo [here](https://khammari.github.io/maktab-resume/)<br>
 ## Available Scripts
 
 In the project directory, you can run:
